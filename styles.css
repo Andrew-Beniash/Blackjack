@@ -1,0 +1,86 @@
+body {
+  background-image: url('blackjack.png'); /* Setting the blackjack table image as background */
+  background-size: cover; /* Ensuring the background covers the entire viewport */
+  color: #fff; /* White text color for better readability */
+  font-family: 'Arial', sans-serif; /* A simple, readable font */
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full viewport height */
+  justify-content: center; /* Center contents horizontally */
+  align-items: center; /* Center contents vertically */
+  text-align: center; /* Center text alignment for all text */
+}
+
+button {
+  color: #FFF; /* White text for high contrast */
+  background-color: #4CAF50; /* Green color, common for tables and casino elements */
+  padding: 15px 30px; /* Ample padding for a larger, clickable area */
+  font-size: 1em; /* Clear and legible font size */
+  border: none; /* No border for a clean look */
+  border-radius: 5px; /* Slightly rounded corners for a modern feel */
+  cursor: pointer; /* Indicates the link is clickable */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for interactive effects */
+}
+
+button:hover {
+  background-color: #367C39; /* Slightly darker shade on hover for interactive feedback */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Larger shadow for a "lifting" effect */
+}
+
+
+h1 {
+  color: goldenrod; /* Stylish color for the main heading */
+  margin: 0; /* Removing default margin for clean layout */
+  padding-bottom: 20px; /* Space below the heading */
+}
+
+#message-el {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+  color: #fff; /* White color for the message text */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Slightly rounded corners for a softer look */
+  max-width: 80%; /* Limiting width for better layout */
+  margin: auto; /* Centering the message box */
+}
+
+#newCard {
+  color: #FFF; /* White text for visibility */
+  background-color: #FF5733; /* Orange color for a distinct look from the main button */
+  padding: 15px 30px; /* Consistent padding for clickable area */
+  font-size: 1em; /* Legible font size */
+  border: none; /* No border for a sleek look */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Indicates the button is clickable */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+#newCard:hover {
+  background-color: #E84118; /* Slightly darker shade on hover for feedback */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Larger shadow for a "lifting" effect */
+}
+
+#newCard:disabled {
+  background-color: #FFA07A; /* Lighter orange for disabled state */
+  color: #FFF8F0; /* Very light white for text to indicate non-interactivity */
+  cursor: not-allowed; /* Cursor indicates button is not clickable */
+  box-shadow: none; /* No shadow to flatten the look */
+}
+
+p {
+  color: #E4E4E4; /* Light grey for readability and style */
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  font-size: 1rem; /* Suitable text size */
+  line-height: 1.6; /* Spacing between lines for readability */
+  padding: 10px; /* Padding inside the paragraphs */
+  border-radius: 5px; /* Slightly rounded corners for a modern look */
+  max-width: 80%; /* Max width for better readability */
+  margin: 10px auto; /* Vertical space between paragraphs and horizontal centering */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3); /* Subtle shadow for depth */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+p:hover {
+  background: rgba(0, 0, 0, 0.8); /* Darker background on hover for interactivity */
+  color: #FFFFFF; /* Brighter text color on hover */
+}
